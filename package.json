@@ -1,27 +1,27 @@
 {
-  "name": "chat-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "type": "module",
-  "scripts": {
-    "start": "node main.js",
-    "dev": "nodemon --env-file=.env main.js"
-  },
-  "keywords": [],
-  "author": "ALU",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "connect-mongodb-session": "^5.0.0",
-    "cookie-parser": "^1.4.6",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "express-session": "^1.18.0",
-    "mongodb": "^6.7.0",
-    "socket.io": "^4.7.5"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
-  }
+	"name": "chat-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"start": "node ./api/index.js",
+		"dev": "nodemon --env-file=.env main.js"
+	},
+	"keywords": [],
+	"author": "ALU",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.1.1",
+		"connect-mongodb-session": "^5.0.0",
+		"cookie-parser": "^1.4.6",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"express-session": "^1.18.0",
+		"mongodb": "^6.7.0",
+		"socket.io": "^4.7.5"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.0"
+	}
 }
